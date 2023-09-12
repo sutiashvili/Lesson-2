@@ -21,11 +21,11 @@ alert(arrayofSubjects[arrayofSubjects.length - 1]);
 let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "]; 
 let o = ["th", "st", "nd", "rd"];
 let choise = "choise is";
-let number = [1, 2];
+let number = [1, 2, 3];
 
-alert(`1${o[1]} ${choise} ${color[0]}
-2${o[2]} ${choise}  ${color[1]}
-3${o[0]} ${choise}  ${color[1]} `);
+alert(`${number[0]} ${o[1]} ${choise} ${color[0]} 
+${number[1]} ${o[2]} ${choise}  ${color[1]}
+${number[2]} ${o[0]} ${choise}  ${color[2]}`);
 
 
 
